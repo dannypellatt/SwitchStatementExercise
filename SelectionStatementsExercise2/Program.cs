@@ -5,7 +5,8 @@
 Console.WriteLine("What's your favorite school subject?");
 
 
-string favSubject = Console.ReadLine();
+string favSubject = Console.ReadLine().ToLower(); //got the ToLower
+//working by adding (), so three cases now unnecessary
 
 switch (favSubject)
 {
